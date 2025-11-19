@@ -1,4 +1,6 @@
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "../components/Navbar";
 import Home from "../pages/Home";
 import Equipos from "../pages/Equipos";
 import Jugadores from "../pages/Jugadores";
@@ -8,6 +10,7 @@ import Estadisticas from "../pages/Estadisticas";
 export default function AppRouter() {
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/equipos" element={<Equipos />} />
