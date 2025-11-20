@@ -19,3 +19,46 @@ El nuevo sistema permite:
 
 ## 🗂️ 2. Estructura del repositorio
 
+Proyecto-BD-Liga-de-Baloncesto/
+│
+├── frontend/        → Interfaz gráfica (React)
+│   ├── components/  → Navbar y componentes reutilizables
+│   ├── pages/       → Páginas del sistema
+│   ├── router/      → Sistema de rutas (AppRouter)
+│  
+│
+├── backend/         → API REST (Node + Express) [pendiente]
+│
+├── database/        → Scripts SQL (tablas, inserts, poblamiento)
+│
+└── README.md        → Documentación del proyecto
+
+
+
+---
+
+## 💻 3. Tecnologías utilizadas
+
+### **Frontend**
+- React
+- React Router DOM
+- HTML5, CSS3
+- JavaScript
+
+### **Backend**  *(pendiente de desarrollar)*
+- Node.js
+- Express
+- API REST
+
+### **Base de datos**
+- MySQL
+- MySQL Workbench
+
+---
+
+## 🚀 4. Cómo ejecutar el frontend (React)
+
+1. Accede a la carpeta del frontend:
+   ```bash
+   cd frontend
+  
