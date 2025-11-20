@@ -1,4 +1,4 @@
-# 🏀 Sistema de Gestión de Liga de Baloncesto  
+#  Sistema de Gestión de Liga de Baloncesto  
 Proyecto para la asignatura de Base de Datos II
 
 Este proyecto implementa un sistema básico para gestionar una liga de baloncesto, permitiendo administrar equipos, jugadores, partidos y estadísticas mediante un frontend en React, un backend en Node/Express y una base de datos MySQL.
